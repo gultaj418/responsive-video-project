@@ -1,0 +1,108 @@
+/* ! Setting root values */
+:root {
+  --margin-right: 10%;
+  --margin-left: 10%;
+  --padding-bottom: 5%;
+  --padding-top: 2%;
+}
+
+/*! Resetting default values*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ! NAV BAR  */
+nav {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: var(--margin-right);
+  margin-left: var(--margin-left);
+}
+.logo-container {
+  /* width: 50%; */
+}
+
+.navSideElementsContainer {
+  /* width: 50%; */
+
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navSideElement {
+  margin-left: 20px;
+}
+
+/*! MAIN SECTION */
+.mainSection {
+  background-color: #b0d5d8;
+}
+.mainFlexContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: var(--margin-right);
+  margin-left: var(--margin-left);
+  padding-bottom: var(--padding-bottom);
+  padding-top: var(--padding-top);
+}
+.mainFlexDiv {
+  width: 25%;
+}
+
+.mainActionButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.mainButtonContainer {
+  margin-top: var(--padding-top);
+  background-color: white;
+  border-radius: 30px;
+  width: 70%;
+}
+.mainButtonContainer a {
+  text-decoration: none;
+  color: black;
+}
+.mainButtonContainer p {
+  text-align: center;
+}
+
+.mainImageContainer {
+  width: 50%;
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.mainSliderButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.sliderArrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  /* text-align: center; */
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.7;
+  height: 50px;
+}
+.sliderDash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* text-align: center; */
+  height: 50px;
+}
